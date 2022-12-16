@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+	background: white;
+}
+
+/* css 선택자
+	-- 자주 쓰는것 : 1~5
+	1) 공용 선택자 : *
+	2) 태그 선택자 : p
+	3) 클래스 선택자 : .text
+	4) 아이디 선택자 : #title
+	5) 그룹 선택자 : p, h1, a
+
+	-- 좀더 뒤에~
+	6) 그밖에 엄청많..	
+*/	
+
+table, td {
+	border: 1px solid #333; /* 선의 두께 선의 종류 선의 색상 */
+	border-collapse: collapse; /* 테두리-겹침: 겹침 */
+}
+td {
+	padding: 1rem 1.250rem; /* 패딩(=안여백) : 상하 1rem, 좌우 1.250rem */ 
+}
