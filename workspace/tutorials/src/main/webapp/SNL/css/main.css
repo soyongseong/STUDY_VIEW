@@ -105,22 +105,43 @@ caption {
 
 
 @media screen and (max-width: 768px){
-	body {
-		background-color: gold;
+	html {
+		font-size: 20px;
+	}
+	.site-visual {
+		background-size: cover;
+		margin-top: 2rem;
+	}
+	.model {
+		width: 90%;		
 	}
 }
 @media screen and (max-width: 420px){
-	body {
+	/* body {
 		background-color: lime;
-	}
+	} */
 }
 /* Q. width: 360일대 body의 배경색상을 pink로 지정해보세요! */
 @media screen and (max-width: 360px){
-	body {
-		background-color: pink;
-	}
 	.site-visual {
-		display: none; /*표시 : 안함 */
+		height: 9rem;
+		background-position-x: 37%;
+		background-size: 300%;
+	}
+	.model {
+		display: none;
+	}
+	.site-nav a {
+		font-size: .7rem;
+	}
+	.enter-fee {
+		width: 95%;		
+	}
+	.enter-fee th {
+		font-size: .8rem
+	}
+	.enter-fee td {
+		font-size: .7rem
 	}
 }
 
