@@ -1,7 +1,7 @@
 # except folder
 content/
-workspace/.metadata/
-workspace/Servers/
+STUDY_VIEW/.metadata/
+STUDY_VIEW/Servers/
 
 # except files
 .mp4
